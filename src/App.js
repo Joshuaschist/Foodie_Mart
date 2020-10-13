@@ -45,7 +45,7 @@ export default class App extends Component {
     var data = this.state.meal;
   return (
       <AppContainer className="App">
-      <h1>FOODIE MART <span>🍜</span></h1>
+      <h1>Foodie Mart <span role="img" aria-label="meal">🍜</span></h1>
       {data.length > 0 && <RecipeCard meals={data} />}
       <button type="button" onClick={ this.restartMeal.bind(this) }>
         <span>Reload</span>
