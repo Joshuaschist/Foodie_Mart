@@ -50,7 +50,7 @@ export default class App extends Component {
       <button type="button" onClick={ this.restartMeal.bind(this) }>
         <span>Reload</span>
       </button>
-      <h3>RELOAD for excellent tour on meals, don't forget to click on them for knowledge</h3>
+      <h4>RELOAD for excellent tour on meals, don't forget to click on them for knowledge</h4>
       </AppContainer>
     );
   }
